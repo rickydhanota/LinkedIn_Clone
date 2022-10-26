@@ -21,3 +21,12 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#See below for things which I'll be incorporating into this project:
+#We're using redux as well, when I did npx create-react-app I also did --template redux
+#Using firebase for deployment and as a backend
+#Using BEM naming convention
+
+#ISSUES:
+# I could not get my profile/avatar image to come up
