@@ -1,7 +1,7 @@
 .sidebar {
     top: 80px;
     position: sticky;
-    flex: 0.3;
+    flex: 0.2;
     border-radius: 10px;
     text-align: center;
     height: fit-content;
@@ -30,6 +30,9 @@
 .sidebar_top > h4{
     font-size: 14px;
     color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
 }
 
 .sidebar_top > img{
