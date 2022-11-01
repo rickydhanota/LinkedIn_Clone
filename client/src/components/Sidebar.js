@@ -1,8 +1,12 @@
 import React from 'react';
 import styles from "./Sidebar.module.css";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { useSelector } from 'react-redux';
+import { selectUser } from '../features/userSlice';
 
 const Sidebar = (props) => {
+
+    const user = useSelector(selectUser);
 
     const recentItem = (topic) => {
         return(
@@ -17,9 +21,9 @@ const Sidebar = (props) => {
         <div className= {styles.sidebar}>
             <div className= {styles.sidebar_top}>
                 <img src='https://wallpaperaccess.com/full/4431274.jpg' alt='' /> 
-                <AccountCircleIcon fontSize='large' className= {styles.sidebar_avatar}/>
-                <h2>Ricky Dhanota</h2>
-                <h4>Biomedical Engineer | Experienced Product Development Engineer | Software Engineer | Full Stack Developer</h4>
+                <AccountCircleIcon fontSize='large' className= {styles.sidebar_avatar}>{user.displayName}</AccountCircleIcon>
+                <h2>{user.displayName}</h2>
+                <h4>{user.email}</h4>
             </div>
 
             <div className= {styles.sidebar_stats}>

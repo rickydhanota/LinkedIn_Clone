@@ -14,7 +14,7 @@ const Post = (props) => {
     return (
         <div className= {styles.post}>
             <div className={styles.post_header}>
-                <AccountCircleIcon />
+                <AccountCircleIcon src = {photoUrl}> {name[0]} </AccountCircleIcon>
                 <div className= {styles.post_info}>
                     <h2>{name}</h2>
                     <p>{description}</p>

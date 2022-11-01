@@ -27,6 +27,11 @@ yarn-error.log*
 #We're using redux as well, when I did npx create-react-app I also did --template redux
 #Using firebase for deployment and as a backend
 #Using BEM naming convention
+#Doing authentication with firebase
+
+#Using Redux to avoid running into the issue of prop drilling. Prop drilling can be a big problem with bigger projects which makes apps hard to maintain
+#Redux allows us to manage the flow of data within an application
+
 
 #ISSUES:
 # I could not get my profile/avatar image to come up
