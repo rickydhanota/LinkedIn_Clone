@@ -31,7 +31,10 @@ yarn-error.log*
 
 #Using Redux to avoid running into the issue of prop drilling. Prop drilling can be a big problem with bigger projects which makes apps hard to maintain
 #Redux allows us to manage the flow of data within an application
+# using forwardRef from react-flip-move
+
 
 
 #ISSUES:
 # I could not get my profile/avatar image to come up
+# FlipMove is not working properly for when I post something, however, when I refresh the animation works

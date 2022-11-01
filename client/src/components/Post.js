@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import styles from "./Post.module.css";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import InputOption from './InputOption';
@@ -7,12 +7,12 @@ import CommentIcon from '@mui/icons-material/Comment';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import SendIcon from '@mui/icons-material/Send';
 
-const Post = (props) => {
+const Post = forwardRef((props, ref) => {
 
     const {name, description, message, photoUrl} = props;
 
     return (
-        <div className= {styles.post}>
+        <div ref={ref} className= {styles.post}>
             <div className={styles.post_header}>
                 <AccountCircleIcon src = {photoUrl}> {name[0]} </AccountCircleIcon>
                 <div className= {styles.post_info}>
@@ -33,6 +33,6 @@ const Post = (props) => {
             </div>
         </div>
     );
-};
+});
 
 export default Post;
