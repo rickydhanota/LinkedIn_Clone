@@ -33,6 +33,8 @@ yarn-error.log*
 #Redux allows us to manage the flow of data within an application
 # using forwardRef from react-flip-move
 
+#You can find the deployed site here at: https://linkedin-clone-da3f1.web.app/
+
 
 
 #ISSUES:
