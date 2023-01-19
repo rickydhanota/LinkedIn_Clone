@@ -5,6 +5,7 @@
 <img width="1420" alt="Screenshot 2023-01-19 at 12 03 30 AM" src="https://user-images.githubusercontent.com/60463313/213387392-b842733b-b93b-41fc-943c-8bde129a0136.png">
 
 Features I tried to incorporate:
+- Material UI
 - redux and redux toolkit
 - Used firebase for deployment, backend, validations, authentications, etc.
 - Used react-flip-move for some animations
